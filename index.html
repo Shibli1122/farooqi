@@ -1,199 +1,113 @@
-HTML:-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <div class="navbar">
-        <div class="nav-logo border">
-            <div class="logo" style="color: goldenrod;">Farooqi Dawakhana</div>
-        </div>
-<div class="nav-adress border">
-    <p class="add-first">Deliver to</p>
-    <div class="add-icon">
-        <i class="fa-solid fa-location-dot" style="color: goldenrod;"></i>
-        <p class="add-scnd">Pakistan</p>
-    </div>
+    <header>
+        <h1>Muhammad Shibli Farooqi</h1>
+        <p>Hello! I’m Shibli Farooqi, a Software Engineering student at the University of Lahore. From Pasrur, Sialkot, I’m passionate about technology and programming, eager to enhance my software development skills.</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am Shibli Farooqi, a passionate and motivated student currently studying for a Bachelor of Science in Software Engineering at the University of Lahore. Originally from Pasrur, Sialkot, I completed my FSc at Superior College, which laid a strong foundation for my academic journey. My education at The Educators, a project of Beaconhouse, helped nurture my curiosity and creativity from an early age. I have a keen interest in programming and software development, and I'm constantly exploring new technologies and tools to enhance my skills. I am proficient in languages such as Python and Java, and I enjoy working on projects that challenge my problem-solving abilities. Beyond academics, I am passionate about learning and sharing knowledge, whether through participating in tech communities or engaging in collaborative projects. In my spare time, I love reading tech blogs, experimenting with coding challenges, and connecting with fellow tech enthusiasts. My goal is to contribute to innovative projects that make a positive impact in the world.
+
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio's:-</h2>
+       <div class="project">
+    <h3>Electricity Generating tiles</h3>
+    <img id="egt-img" src="egt.jpg" alt="Electricity Generation tiles">
+    <p id="p1">I explored the concept of electricity-generating tiles, which convert mechanical energy from footsteps into electrical energy. Utilizing piezoelectric materials, these tiles produce electricity when pressure is applied. This innovative technology harnesses energy in high-footfall areas, such as train stations and shopping malls, providing a sustainable energy solution to power nearby devices like lights and sensors. My research into this technology highlights its potential for renewable energy generation and its applications in urban environments.</p>
 </div>
+        
+        
+        
+        <div class="project-2">
+            <h3>Image Classification System</h3>
+            <img id="egt-img" src="catdog.jpg" alt="Image Classification System">
+            <p>
+                Developed a Cat vs. Dog Image Classification System that utilizes a convolutional neural network (CNN) to distinguish between images of cats and dogs. The project involved gathering the Kaggle Cats and Dogs dataset, preprocessing images, and training the model using TensorFlow/Keras. Users can upload images to receive real-time classification, demonstrating the effectiveness of deep learning in image recognition with over 90% accuracy.
 
-<div class="nav-seacrch">
-    <select class="search-select">
-        <option>All</option>
-        <input placeholder="Search Farooqi Dawakhana" class="search-input" style="background-color: #90c074;">
-        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-    </select>
-</div>
-
-<div class="nav-sigin border">
-    <p><span>Hello, sign in</span></p>
-    <p class="nav-sec">Account & list</p>
-</div>
-
-<div class="nav-sigin border">
-    <p><span>Returns</span></p>
-    <p class="nav-sec">& Orders</p>
-</div>
-
-<div class="nav-cart border">
-    <i class="fa-solid fa-cart-shopping" style="color: goldenrod;"></i>
-    Cart
-</div>
-
-    </div>
-
-<!-- second header -->
-
-<div class="panel">
-    <div class="panei-all"> 
-        <i class="fa-solid fa-bars"></i>
-        All
-    </div>
-   <div class="panel-ops">
-    <P>Today's Deals</P>
-    <P>Customer Service</P>
-    <P>Registry</P>
-    <P>Gift Card</P>
-    <P>Sell</P>
-   </div>
-   
-   <div class="panel-deals">
-    We deals only in Herbals
-   </div>
-</div>
-</header>
-
-<div class="hero">
-    <div class="hero-msg">
-        <p id="movetex" class="movtex">We are offering Flat 25% Off <a href="#">Click here to go to Sales</a></p>
-    </div>
-</div>
-
-
-<!-- <div class="hero">
-    <div class="hero-msg">
-        <p class="movetex">We are offering Flat 25% Off <a href="#">Click hehe to go to on Sales</a></p>
-    </div>
-</div> -->
-
-<!-- Shop section boxes -->
-
-<div class="shop-section">
-
-    <div class="box1 box">
-        <div class="box-content">
-            <h2>Price Rs 500</h2>
-            <div class="box-img" style="background-image: url(majoon1.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
+            </p>
+            
         </div>
-    </div>
 
-    <div class="box2 box">
-        <div class="box-content">
-            <h2>Price Rs 450</h2>
-            <div class="box-img" style="background-image: url(majoon2.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
+
+
+
+        <div class="project-3">
+            <h3>Inventory Tracking System</h3>
+            <img class="ims" id="egt-img" src="ims.png" alt="Project 3 image">
+            <p>In my role, I implemented a real-time inventory tracking system that enables store managers to efficiently monitor stock levels. This system features automated updates synchronized with sales transactions, low stock alerts for items nearing predefined thresholds, and comprehensive sales trend reports that help identify popular products. As a result, the implementation significantly improved operational efficiency, minimized stockouts, and enhanced overall inventory management.</p>
+
         </div>
-    </div>
-
-    <div class="box3 box"> <div class="box-content">
-            <h2>Price Rs 4200</h2>
-            <div class="box-img" style="background-image: url(shahi.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+    </section>
 
 
-    <div class="box4 box"> <div class="box-content">
-        <h2>Price Rs 550</h2>
-        <div class="box-img" style="background-image: url(ragmahi.jpeg);"></div>
-        <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
 
-</div>
-<!-- Second row -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-<div class="shop-section">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-    <div class="box1 box">
-        <div class="box-content">
-            <h2>Price Rs 370</h2>
-            <div class="box-img" style="background-image: url(ardurkhrma.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
 
-    <div class="box2 box">
-        <div class="box-content">
-            <h2>Price Rs 250</h2>
-            <div class="box-img" style="background-image: url(algex.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
 
-    <div class="box3 box"> <div class="box-content">
-            <h2>Price Rs 250</h2>
-            <div class="box-img" style="background-image: url(fulad.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
 
+            <label for="hobbies">Hobbies:</label>
+            <select id="hobbies" name="hobbies">
+                <option value="reading">Reading</option>
+                <option value="traveling">Traveling</option>
+                <option value="coding">Coding</option>
+                <option value="other">Other</option>
+            </select>
 
-    <div class="box4 box"> <div class="box-content">
-        <h2>Price Rs 200</h2>
-        <div class="box-img" style="background-image: url(me-lo.jpeg);"></div>
-        <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
 
-</div>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
 
-<!-- row 3  -->
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
 
-<div class="shop-section">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
 
-    <div class="box1 box">
-        <div class="box-content">
-            <h2>Price Rs 250</h2>
-            <div class="box-img" style="background-image: url(musfeen.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
-
-    <div class="box2 box">
-        <div class="box-content">
-            <h2>Price Rs 150</h2>
-            <div class="box-img" style="background-image: url(tootshah.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
-
-    <div class="box3 box"> <div class="box-content">
-            <h2>Price Rs 4200</h2>
-            <div class="box-img" style="background-image: url(ajmleen.jpeg);"></div>
-            <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
+            
+        </form>
+        <button type="submit">Submit</button>
+    </section>
 
 
-    <div class="box4 box"> <div class="box-content">
-        <h2>Price Rs 550</h2>
-        <div class="box-img" style="background-image: url(ragmahi.jpeg);"></div>
-        <p ><a href="#">Buy Now</a></p>
-        </div>
-    </div>
-
-</div>
-
-
-    </body>
+    <footer>
+        <p>
+            Connect with me:
+            <a href="#">LinkedIn</a> |
+            <a href="#">GitHub</a>
+        </p>
+        <p> 2024 M.S.Farooqi</p>
+    </footer>
+</body>
 </html>
-
-
